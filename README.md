@@ -2,6 +2,8 @@
 
 [![image](https://github.com/user-attachments/assets/f43bb6e8-5ea9-45c4-9423-c55303e04148)](https://calculadora-de-notas-six.vercel.app)
 
-## Informações
-- Este é um projeto que utiliza HTML, CSS e JavaScript para criar uma interface simples de uma calculadora de notas
-- O cálculo de médias é baseado nas [regras para notas semestrais](https://suap.ifsp.edu.br/media/edu/mensagem/Regras_para_notas_semestrais_XWPdJFU.pdf) 
+## Informações 
+- Este é um projeto que utiliza HTML, CSS e JavaScript para criar uma interface com um sistema que calcula notas
+- O cálculo de médias é baseado nas [regras para notas semestrais](Informações/Regras_para_notas_semestrais_XWPdJFU.pdf) do professor [Augusto Manzano](https://github.com/J-AugustoManzano) (IFSP-CJO)
+- O sistema calcula sua **nota mínima necessária** na prova semestral (N3), baseando-se em sua Nota de Pontualidade (N1) e Nota de Aproveitamento (N2)
+- As [regras para notas semestrais](Informações/Regras_para_notas_semestrais_XWPdJFU.pdf) são de 2024 e podem mudar. Antes de usar, confira as regras do seu semestre e confirme se são as mesmas

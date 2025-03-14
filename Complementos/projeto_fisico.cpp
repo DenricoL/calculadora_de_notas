@@ -1,5 +1,5 @@
-//calculadora de mÈdias (Manzano)
-//este sistema ir· calcular a nota mÌnima necess·ria que o usu·rio precisa na prova final
+//calculadora de m√©dias (Manzano)
+//este sistema ir√° calcular a nota m√≠nima necess√°ria que o usu√°rio precisa na prova final
 
 #include <iostream>
 #include <iomanip>
@@ -17,12 +17,12 @@ int main (void)
     setlocale(LC_ALL, "pt-br");
 
     cout << setw(45) << right << "CALCULADORA DE NOTAS" << endl;
-    cout << "Use este programa para calcular sua nota mÌnima necess·ria na prova final (N3)" << endl << endl;
+    cout << "Use este programa para calcular sua nota m√≠nima necess√°ria na prova final (N3)" << endl << endl;
 
     cout << "Insira sua nota de pontualidade (N1): ";
     cin >> N1;
 
-    cout << "Insira sua nota de avaliaÁıes (N2): ";
+    cout << "Insira sua nota de avalia√ß√µes (N2): ";
     cin >> N2;
 
     N3 = (12 - N1 * 0.3) / 0.85 - N2;
@@ -30,11 +30,11 @@ int main (void)
     cout << endl << endl << setprecision(1) << fixed;
 
     if(N3 <= 10)
-        cout << "Nota necess·ria para ficar com mÈdia 6: " << N3;
+        cout << "Nota necess√°ria para ficar com m√©dia 6: " << N3;
     else
     {
         N3 = (10 - N1 * 0.3) / 0.85 - N2;
-        cout << "VocÍ n„o conseguir· ficar com 6 de mÈdia na prova final. Nota necess·ria para ficar de IFA: " << N3;
+        cout << "Voc√™ n√£o conseguir√° ficar com 6 de m√©dia na prova final. Nota necess√°ria para ficar de IFA: " << N3;
     }
 
     cout << endl << endl << "\nDeseja calcular novamente? (S/N): ";

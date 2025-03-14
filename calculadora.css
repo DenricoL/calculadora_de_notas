@@ -46,9 +46,9 @@ button {
 @media (max-width: 580px) {
     
     body {
-        padding-top: 200px;
-        padding-right: 5px;
-        padding-left: 5px;
+        padding-top: 100px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     .container {

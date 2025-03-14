@@ -16,10 +16,22 @@ header{
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 172, 43, 0.534);
+    box-shadow: 0 0 15px rgb(0, 26, 255);
+    transition: 0.3s;
     max-width: 400px;
     margin: auto;
 }
+
+.bad {
+    box-shadow: 0 0 15px red !important;
+    transition: 0.3s;
+}
+
+.good {
+    box-shadow: 0 0 15px rgb(0, 255, 55) !important;
+    transition: 0.3s;
+}
+
 input {
     width: 80%;
     padding: 8px;

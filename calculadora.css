@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #2c2c2c;
+    background-color: #12121b;
     padding: 100px;
     color: aliceblue;
 }
@@ -12,8 +12,8 @@ header{
 }
 
 .container {
-    color: black;
-    background: white;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgb(0, 26, 255);
@@ -46,13 +46,31 @@ button {
     border: none;
     border-radius: 5px;
 }
-.calcular { background: #28a745; color: white; }
-.limpar { background: #dc3545; color: white; }
+.calcular 
+{ 
+    background: #00d33141; 
+    color: white; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.calcular:hover {background: #28a746e8; box-shadow: 0 0 15px #009b40; transition: 0.5s;}
+
+.limpar 
+{
+    background: #b1021438;
+    color: white; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.limpar:hover {background: #e22134; box-shadow: 0 0 15px #ff0000; transition: 0.5s;}
 #resultado {
     font-size: 18px;
     margin-top: 15px;
     font-weight: bold;
 }
+
+input {background: #12121b; color: white;}
+input::placeholder {color: white;}
 
 /* Responsividade */
 @media (max-width: 580px) {

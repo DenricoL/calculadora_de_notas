@@ -38,7 +38,7 @@ function calcularNota() {
         }
         else
         {
-            resultado.style.color = "#0213cc"
+            resultado.style.color = "#006ba1"
             container.classList.remove("good");
         }
     }

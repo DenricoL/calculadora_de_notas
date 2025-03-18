@@ -32,17 +32,18 @@ function calcularNota() {
     else
     {
         resultado.innerHTML = `Nota necessária para média final ser 6: <strong>${N3.toFixed(2)}</strong>`;
-        container.classList.remove("bad");
         if (N3 <= 5)
         {
             resultado.style.color = "green";
+            container.classList.remove("bad");
+            container.classList.remove("mid");
             container.classList.add("good");
         }
         else if (N3 > 7.5)
         {
             resultado.style.color = "#DD7E01" 
-            container.classList.add("bad");
-            container.classList.add("good");
+            container.classList.remove("bad");
+            container.classList.remove("good");
             container.classList.add("mid");
 
         }

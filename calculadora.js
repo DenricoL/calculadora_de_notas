@@ -62,4 +62,5 @@ function limparCampos() {
     document.getElementById("resultado").innerHTML = "";
     document.querySelector(".container").classList.remove("bad");
     document.querySelector(".container").classList.remove("good");
+    document.querySelector(".container").classList.remove("mid");
 }

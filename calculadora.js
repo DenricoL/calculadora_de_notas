@@ -18,6 +18,7 @@ function calcularNota() {
         {
             resultado.innerHTML = `Reprovado.`;
             container.classList.remove("good");
+            container.classList.remove("mid");
             container.classList.add("bad");
             resultado.style.color = "red";
         }
@@ -25,6 +26,7 @@ function calcularNota() {
             resultado.innerHTML = `Nota necessária pra ir pra IFA: <strong>${N3.toFixed(2)}</strong>`;
             resultado.style.color = "red";
             container.classList.remove("good");
+            container.classList.remove("mid");
             container.classList.add("bad");
     }    
     else
@@ -36,10 +38,20 @@ function calcularNota() {
             resultado.style.color = "green";
             container.classList.add("good");
         }
+        else if (N3 > 7.5)
+        {
+            resultado.style.color = "#DD7E01" 
+            container.classList.add("bad");
+            container.classList.add("good");
+            container.classList.add("mid");
+
+        }
         else
         {
             resultado.style.color = "#006ba1"
+            container.classList.remove("mid");
             container.classList.remove("good");
+            container.classList.remove("bad");
         }
     }
 }
